@@ -21,7 +21,7 @@ function showMeTheWorld(xhr){
 
 window.onload = function(){
 	document.getElementById("takeMeThere").addEventListener('click', function(){
-		sendAjaxGet("/helloWorldAws/takeMeThere", showMeTheWorld);
+		sendAjaxGet("/HelloWorldAws/takeMeThere", showMeTheWorld);
 	}, false);
 	
 }
